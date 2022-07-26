@@ -8,10 +8,19 @@
     color: #ff2379;
     transition: .3s;
 }
+nav.navbar.shadow.navbar-expand-lg.bg-light.navbar-fixed-top {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
 .active {
     color: #ff2379 !important;
 }
 /* Slider Section */
+.container.mt-8 {
+    margin-top: 100px;
+}
 .signal-slider {
     background: #fceae8;
     padding: 75px;
@@ -33,4 +42,74 @@ button.btn.btn-warning.custom {
     margin-top: 15px;
     text-transform: uppercase;
     font-weight: 600;
+}
+/* Category Style */
+.categorys {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.categorys img {
+    padding: 5px;
+    width: 127px;
+}
+.categorys h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+/* Shoes style */
+.shoes-product img {
+    width: 100%;
+}
+.shoes-product {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.shoes-product h4 {
+    font-weight: 700;
+    font-size: 25px;
+}
+.shoes-product h2 {
+    font-size: 25px;
+}
+/* Subscrip Style */
+.subscribe {
+    text-align: center;
+    background: #fceae8;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.subscribe h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+.subscribe p {
+    font-size: 18px;
+    color: #222;
+}
+.subscribe input {
+    outline: none;
+    border: none;
+    padding: 16px 15px;
+    border-radius: 5px;
+}
+button.btn.btn-warning.form-btn {
+    padding: 12px;
+    font-size: 21px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+/* Footer Section */
+.footer {
+    background: #fceae8;
+    text-align: center;
+    padding: 20px;
 }
